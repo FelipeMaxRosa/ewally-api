@@ -11,4 +11,5 @@ const controllerBoleto = require("../../controllers/boletoController");
 router.get("/:barCode", controllerBoleto.findOne);
 
 
+
 module.exports = router;
